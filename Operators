@@ -1,0 +1,97 @@
+   ARITHMATIC & ASSIGNMENT OPERATORS
+   
+   let a= 20;
+let b = 30;
+
+let add =  a+b;
+console.log({add});
+
+let subtract = a-b;
+console.log({subtract});
+
+let division = a/b;
+console.log({division});
+
+let multiply =a*b;
+console.log({multiply});
+   
+     IN TERMINAl
+     
+     
+studen@oem-ThinkPad-E14-Gen-4:~/Anitab-Js$ node operators.js
+{ add: 50 }
+studen@oem-ThinkPad-E14-Gen-4:~/Anitab-Js$ node operators.js
+{ add: 50 }
+studen@oem-ThinkPad-E14-Gen-4:~/Anitab-Js$ node operators.js
+{ add: 50 }
+{ subtract: -10 }
+studen@oem-ThinkPad-E14-Gen-4:~/Anitab-Js$ node operators.js
+{ add: 50 }
+{ subtract: -10 }
+{ division: 0.6666666666666666 }
+studen@oem-ThinkPad-E14-Gen-4:~/Anitab-Js$ node operators.js
+{ add: 50 }
+{ subtract: -10 }
+{ division: 0.6666666666666666 }
+{ multiply: 600 }
+studen@oem-ThinkPad-E14-Gen-4:~/Anitab-Js$ node operators.js
+{ add: 50 }
+{ subtract: -10 }
+{ division: 0.6666666666666666 }
+{ multiply: 600 }
+
+
+      COMPARISION OPERATORS
+      
+      
+let c= "20";
+
+let looselyEqualTo= a==c;
+console.log({looselyEqualTo});
+
+//looselyEqualTo only check for the value not data type of variables
+
+let strictlyEqualTo = a===c;
+console.log({strictlyEqualTo});
+
+//strictlyEqualTo checks for both the value and the data type of variables
+
+let looselyNotEqualTo= a!=c;
+console.log({looselyNotEqualTo});
+
+let striclyNotEqualTo= a !==c;
+console.log({striclyNotEqualTo});
+
+     IN TERMINAL
+     
+   
+{ looselyEqualTo: true }
+{ strictlyEqualTo: false }
+{ looselyNotEqualTo: false }
+{ striclyNotEqualTo: true }
+studen@oem-ThinkPad-E14-Gen-4:~/Anitab-Js$  
+
+  COMPOUND& iNCREMENT AND DECREMENT OPERATORS
+  
+    a+=5;
+console.log({a});
+//compound operator
+
+a--;
+console.log({a});
+// Decrement
+
+a++;
+console.log({a});
+// Increment
+
+    IN TERMINAL
+    
+    { a: 25 }
+{ a: 24 }
+{ a: 25 }
+
+   TYPES OF COERCION
+   
+    
+     
