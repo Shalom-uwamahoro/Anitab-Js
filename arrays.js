@@ -62,3 +62,5 @@ let square3 = []
  });
  console.log({square3});
 //  This method brings the result of squared items as an array!!!
+
+// fruits.splice(5,0,"Tomato"); console.log({fruits}); this is also used to insert element in array or replace element
