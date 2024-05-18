@@ -61,3 +61,10 @@ console.log({f});
 // Explivity
 
 // String Data Type
+
+
+var z = "42";
+var w= Number(z);
+var q = z* 10;
+
+console.log(z);

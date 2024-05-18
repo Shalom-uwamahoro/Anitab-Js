@@ -64,3 +64,13 @@ let square3 = []
 //  This method brings the result of squared items as an array!!!
 
 // fruits.splice(5,0,"Tomato"); console.log({fruits}); this is also used to insert element in array or replace element
+
+
+var arrs= ["Jane Doe", 21, true];
+
+arrs[0];			// "Jane Doe"
+arrs[1];			// 21
+arrs[2];			// true
+arrs.length;		// 3
+
+console.log(typeof arrs)		// "object"
